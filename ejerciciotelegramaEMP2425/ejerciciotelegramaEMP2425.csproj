@@ -1,10 +1,10 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{C633F148-EA55-47D5-BA18-D3782DF564B7}</ProjectGuid>
+    <ProjectGuid>{B2236F5E-1568-43C0-9E8A-CACAE82586BB}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <RootNamespace>ejerciciotelegramaEMP2425</RootNamespace>
     <AssemblyName>ejerciciotelegramaEMP2425</AssemblyName>
