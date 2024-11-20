@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace ejercicioTelegrama.Properties
+namespace ejerciciotelegramaEMP2425.Properties
 {
 
 

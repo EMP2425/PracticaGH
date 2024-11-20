@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace ejercicioTelegrama.Properties
+namespace ejerciciotelegramaEMP2425.Properties
 {
 
 
@@ -44,7 +44,7 @@ namespace ejercicioTelegrama.Properties
             {
                 if ((resourceMan == null))
                 {
-                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("ejercicioTelegrama.Properties.Resources", typeof(Resources).Assembly);
+                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("ejerciciotelegramaEMP2425.Properties.Resources", typeof(Resources).Assembly);
                     resourceMan = temp;
                 }
                 return resourceMan;
