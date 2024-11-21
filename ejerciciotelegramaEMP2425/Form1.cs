@@ -18,9 +18,10 @@ namespace ejerciciotelegramaEMP2425
         }
 
         private void btnCalcular_Click(object sender, EventArgs e)
-        {
+            {
             string textoTelegrama;
-            char tipoTelegrama = ' ';
+            char tipoTelegrama = 'o';
+            //EMP2425
             int numPalabras = 0;
             double coste;
             //Leo el telegrama
@@ -31,7 +32,8 @@ namespace ejerciciotelegramaEMP2425
                 tipoTelegrama = 'u';
             }
             //Obtengo el número de palabras que forma el telegrama
-            numPalabras = textoTelegrama.Length;
+            string[] palabras = textoTelegrama.Split(' ');
+            numPalabras = palabras.Length;
             //Si el telegrama es ordinario
             if (tipoTelegrama == 'o')
             {
@@ -46,7 +48,6 @@ namespace ejerciciotelegramaEMP2425
             }
             else
             //Si el telegrama es urgente
-            //EMP2425
             {
                 if (tipoTelegrama == 'u')
                 {
@@ -55,6 +56,7 @@ namespace ejerciciotelegramaEMP2425
                         coste = 5;
                     }
                     else
+                    //EMP2425
                     {
                         coste = 5 + 0.75 * (numPalabras - 10);
                     }
@@ -66,5 +68,9 @@ namespace ejerciciotelegramaEMP2425
             }
             txtPrecio.Text = coste.ToString() + " euros";
         }
-            }
+
+    }
 }
+
+
+        
