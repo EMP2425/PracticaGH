@@ -39,7 +39,7 @@ namespace ejerciciotelegramaEMP2425
             {
                 if (numPalabras <= 10)
                 {
-                    coste = 3;
+                    coste = 2.5;
                 }
                 else
                 {
@@ -53,7 +53,7 @@ namespace ejerciciotelegramaEMP2425
                 {
                     if (numPalabras <= 10)
                     {
-                        coste = 6;
+                        coste = 5;
                     }
                     else
                     //EMP2425
