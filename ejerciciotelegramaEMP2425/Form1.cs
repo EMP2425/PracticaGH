@@ -39,12 +39,12 @@ namespace ejerciciotelegramaEMP2425
             {
                 if (numPalabras <= 10)
                 {
-                    coste = 2.5;
+                    coste = 3;
                 }
                 else
                 {
                     coste = 0.5 * numPalabras;
-                }
+                } //EMP2425
             }
             else
             //Si el telegrama es urgente
@@ -53,7 +53,7 @@ namespace ejerciciotelegramaEMP2425
                 {
                     if (numPalabras <= 10)
                     {
-                        coste = 5;
+                        coste = 6;
                     }
                     else
                     //EMP2425
