@@ -30,7 +30,8 @@
         {
             this.lblText = new System.Windows.Forms.Label();
             this.txtTelegrama = new System.Windows.Forms.TextBox();
-            this.chkUrgente = new System.Windows.Forms.CheckBox();
+            this.rbUrgente = new System.Windows.Forms.RadioButton();
+            this.rbOrdinario = new System.Windows.Forms.RadioButton();
             this.lblCoste = new System.Windows.Forms.Label();
             this.txtPrecio = new System.Windows.Forms.TextBox();
             this.btnCalcular = new System.Windows.Forms.Button();
@@ -54,16 +55,33 @@
             this.txtTelegrama.Size = new System.Drawing.Size(396, 118);
             this.txtTelegrama.TabIndex = 1;
             // 
-            // chkUrgente
+          
+
             // 
-            this.chkUrgente.AutoSize = true;
-            this.chkUrgente.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.chkUrgente.Location = new System.Drawing.Point(147, 261);
-            this.chkUrgente.Name = "chkUrgente";
-            this.chkUrgente.Size = new System.Drawing.Size(99, 24);
-            this.chkUrgente.TabIndex = 2;
-            this.chkUrgente.Text = "Urgente?";
-            this.chkUrgente.UseVisualStyleBackColor = true;
+            // rbUrgente
+            // 
+            this.rbUrgente.AutoSize = true;
+            this.rbUrgente.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F);
+            this.rbUrgente.Location = new System.Drawing.Point(147, 261);
+            this.rbUrgente.Name = "rbUrgente";
+            this.rbUrgente.Size = new System.Drawing.Size(85, 24);
+            this.rbUrgente.TabIndex = 2;
+            this.rbUrgente.TabStop = true;
+            this.rbUrgente.Text = "Urgente";
+            this.rbUrgente.UseVisualStyleBackColor = true;
+            // 
+            // rbOrdinario
+            // 
+            this.rbOrdinario.AutoSize = true;
+            this.rbOrdinario.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F);
+            this.rbOrdinario.Location = new System.Drawing.Point(250, 261);
+            this.rbOrdinario.Name = "rbOrdinario";
+            this.rbOrdinario.Size = new System.Drawing.Size(96, 24);
+            this.rbOrdinario.TabIndex = 3;
+            this.rbOrdinario.TabStop = true;
+            this.rbOrdinario.Text = "Ordinario";
+            this.rbOrdinario.UseVisualStyleBackColor = true;
+
             // 
             // lblCoste
             // 
@@ -100,7 +118,8 @@
             this.Controls.Add(this.btnCalcular);
             this.Controls.Add(this.txtPrecio);
             this.Controls.Add(this.lblCoste);
-            this.Controls.Add(this.chkUrgente);
+            this.Controls.Add(this.rbUrgente);
+            this.Controls.Add(this.rbOrdinario);
             this.Controls.Add(this.txtTelegrama);
             this.Controls.Add(this.lblText);
             this.Name = "Form1";
@@ -114,7 +133,8 @@
 
         private System.Windows.Forms.Label lblText;
         private System.Windows.Forms.TextBox txtTelegrama;
-        private System.Windows.Forms.CheckBox chkUrgente;
+        private System.Windows.Forms.RadioButton rbUrgente; 
+        private System.Windows.Forms.RadioButton rbOrdinario;
         private System.Windows.Forms.Label lblCoste;
         private System.Windows.Forms.TextBox txtPrecio;
         private System.Windows.Forms.Button btnCalcular;
